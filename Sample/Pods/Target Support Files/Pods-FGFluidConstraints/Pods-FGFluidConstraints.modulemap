@@ -1,0 +1,6 @@
+framework module Pods_FGFluidConstraints {
+  umbrella header "Pods-FGFluidConstraints-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,10 @@
+PODS:
+  - FGFluidConstraints (0.0.1)
+
+DEPENDENCIES:
+  - FGFluidConstraints
+
+SPEC CHECKSUMS:
+  FGFluidConstraints: 7a127a31a220b981406164ea2784b2e0e107eeb2
+
+COCOAPODS: 0.39.0

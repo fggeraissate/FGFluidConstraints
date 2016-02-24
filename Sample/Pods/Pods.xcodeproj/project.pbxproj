@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216FC96418318A65FAE5E1FE7656BF84 /* NSLayoutConstraint+FGFluidConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BF89BC1536F80DA58B10F044D9971D /* NSLayoutConstraint+FGFluidConstraints.m */; };
+		3EA2A616B4E903EAD650EDB3B4EAE650 /* Pods-FGFluidConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5EE012E60C13917EB02295E698CEE7 /* Pods-FGFluidConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9EDDD539C0E56F16607C617A63AD50 /* FGFluidConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E06215932D045D6A79C42E895EAEA0C2 /* FGFluidConstraints-dummy.m */; };
+		9CB9B1699863BB12270CDBE01594B2D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A4A848A679476D2695631642E9F819AB /* NSLayoutConstraint+FGFluidConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBAACB1446D90CCBE481200FB733B13 /* NSLayoutConstraint+FGFluidConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B240E0954B611CF44FD1A699FCD422 /* Pods-FGFluidConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72393D91626D3018A1F12B796AAA00B9 /* Pods-FGFluidConstraints-dummy.m */; };
+		C88568E33410402072605DABA64805EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D03A23C788042F3D8B338D9CAC1B189F /* FGFluidConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3F7040F5E317DB9BF13D08F8429F74 /* FGFluidConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A7D7DD283DE4A5F27E9FBF4E60B453C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D7CD60B1C521CA0F10EDCD47466680;
+			remoteInfo = FGFluidConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1F1684BBFD8A0EB4969636B59C586F /* Pods_FGFluidConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGFluidConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		332E6860C94ADA382D4C503F956B4B27 /* FGFluidConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGFluidConstraints-prefix.pch"; sourceTree = "<group>"; };
+		3D5EE012E60C13917EB02295E698CEE7 /* Pods-FGFluidConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGFluidConstraints-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D631DD9E4F08239EB4F892B22DD6B81 /* Pods-FGFluidConstraints-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FGFluidConstraints-frameworks.sh"; sourceTree = "<group>"; };
+		4FBAACB1446D90CCBE481200FB733B13 /* NSLayoutConstraint+FGFluidConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FGFluidConstraints.h"; path = "Pods/Classes/NSLayoutConstraint+FGFluidConstraints.h"; sourceTree = "<group>"; };
+		62BF89BC1536F80DA58B10F044D9971D /* NSLayoutConstraint+FGFluidConstraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FGFluidConstraints.m"; path = "Pods/Classes/NSLayoutConstraint+FGFluidConstraints.m"; sourceTree = "<group>"; };
+		65264A60B2CCF1B5C88561CCFC764796 /* FGFluidConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FGFluidConstraints.modulemap; sourceTree = "<group>"; };
+		6D46B4E17829B4DAAD0A4EB5DEE4864F /* FGFluidConstraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGFluidConstraints.xcconfig; sourceTree = "<group>"; };
+		72393D91626D3018A1F12B796AAA00B9 /* Pods-FGFluidConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FGFluidConstraints-dummy.m"; sourceTree = "<group>"; };
+		8F3F7040F5E317DB9BF13D08F8429F74 /* FGFluidConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGFluidConstraints-umbrella.h"; sourceTree = "<group>"; };
+		A3A43B287395E66734822D6AFC94ADBB /* Pods-FGFluidConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGFluidConstraints.debug.xcconfig"; sourceTree = "<group>"; };
+		A3BC417FCFBB5C56A802AE245CFFF155 /* FGFluidConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGFluidConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D217AB427EA30D53934ACB7B89E9BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDED060A40593CEABABD102D61DAF0D /* Pods-FGFluidConstraints-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGFluidConstraints-acknowledgements.plist"; sourceTree = "<group>"; };
+		B89F93B255D4B282E15DDD43F85214D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C057C934995029346D16D3736E2665FB /* Pods-FGFluidConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGFluidConstraints.release.xcconfig"; sourceTree = "<group>"; };
+		D612F5B8E114446702003F7952F5ADBE /* Pods-FGFluidConstraints-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FGFluidConstraints-resources.sh"; sourceTree = "<group>"; };
+		E06215932D045D6A79C42E895EAEA0C2 /* FGFluidConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FGFluidConstraints-dummy.m"; sourceTree = "<group>"; };
+		F9D73ABBC5732D5DAC3737833908FD0A /* Pods-FGFluidConstraints-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGFluidConstraints-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEDA71DE4562D68821DD4CF325C931E7 /* Pods-FGFluidConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FGFluidConstraints.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FBAB918DDD523F034E0A730707C26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB9B1699863BB12270CDBE01594B2D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707C5F24CDACFD6949B9AE571A13B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88568E33410402072605DABA64805EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4E51E7D8DC2930F0493086C582DAF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65264A60B2CCF1B5C88561CCFC764796 /* FGFluidConstraints.modulemap */,
+				6D46B4E17829B4DAAD0A4EB5DEE4864F /* FGFluidConstraints.xcconfig */,
+				E06215932D045D6A79C42E895EAEA0C2 /* FGFluidConstraints-dummy.m */,
+				332E6860C94ADA382D4C503F956B4B27 /* FGFluidConstraints-prefix.pch */,
+				8F3F7040F5E317DB9BF13D08F8429F74 /* FGFluidConstraints-umbrella.h */,
+				A9D217AB427EA30D53934ACB7B89E9BA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FGFluidConstraints";
+			sourceTree = "<group>";
+		};
+		1429F78237E83BC1A0DDE859FD9BAF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC417FCFBB5C56A802AE245CFFF155 /* FGFluidConstraints.framework */,
+				1C1F1684BBFD8A0EB4969636B59C586F /* Pods_FGFluidConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D6F8B06A1584AFDD913F43935CCF09 /* Pods-FGFluidConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				B89F93B255D4B282E15DDD43F85214D6 /* Info.plist */,
+				FEDA71DE4562D68821DD4CF325C931E7 /* Pods-FGFluidConstraints.modulemap */,
+				F9D73ABBC5732D5DAC3737833908FD0A /* Pods-FGFluidConstraints-acknowledgements.markdown */,
+				ADDED060A40593CEABABD102D61DAF0D /* Pods-FGFluidConstraints-acknowledgements.plist */,
+				72393D91626D3018A1F12B796AAA00B9 /* Pods-FGFluidConstraints-dummy.m */,
+				4D631DD9E4F08239EB4F892B22DD6B81 /* Pods-FGFluidConstraints-frameworks.sh */,
+				D612F5B8E114446702003F7952F5ADBE /* Pods-FGFluidConstraints-resources.sh */,
+				3D5EE012E60C13917EB02295E698CEE7 /* Pods-FGFluidConstraints-umbrella.h */,
+				A3A43B287395E66734822D6AFC94ADBB /* Pods-FGFluidConstraints.debug.xcconfig */,
+				C057C934995029346D16D3736E2665FB /* Pods-FGFluidConstraints.release.xcconfig */,
+			);
+			name = "Pods-FGFluidConstraints";
+			path = "Target Support Files/Pods-FGFluidConstraints";
+			sourceTree = "<group>";
+		};
+		2DE4B9F6DE5446039348CF53955BEE09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52869038B6EADE956D75E4AB4929958E /* FGFluidConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52869038B6EADE956D75E4AB4929958E /* FGFluidConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				4FBAACB1446D90CCBE481200FB733B13 /* NSLayoutConstraint+FGFluidConstraints.h */,
+				62BF89BC1536F80DA58B10F044D9971D /* NSLayoutConstraint+FGFluidConstraints.m */,
+				0B4E51E7D8DC2930F0493086C582DAF7 /* Support Files */,
+			);
+			path = FGFluidConstraints;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2DE4B9F6DE5446039348CF53955BEE09 /* Pods */,
+				1429F78237E83BC1A0DDE859FD9BAF82 /* Products */,
+				D0F4A0D4C0139B853211F5C6CBA63CDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D0F4A0D4C0139B853211F5C6CBA63CDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D6F8B06A1584AFDD913F43935CCF09 /* Pods-FGFluidConstraints */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		148AC14D08664423BA5E8C504A8431D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A23C788042F3D8B338D9CAC1B189F /* FGFluidConstraints-umbrella.h in Headers */,
+				A4A848A679476D2695631642E9F819AB /* NSLayoutConstraint+FGFluidConstraints.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222D8ADC5ABEFCB02CD312E6C4AFF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA2A616B4E903EAD650EDB3B4EAE650 /* Pods-FGFluidConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17D7CD60B1C521CA0F10EDCD47466680 /* FGFluidConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F46327485BA9088BFDD8F9E9ABC496B /* Build configuration list for PBXNativeTarget "FGFluidConstraints" */;
+			buildPhases = (
+				8A3E64A474FB04CF30716B8F06E84337 /* Sources */,
+				22FBAB918DDD523F034E0A730707C26A /* Frameworks */,
+				148AC14D08664423BA5E8C504A8431D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGFluidConstraints;
+			productName = FGFluidConstraints;
+			productReference = A3BC417FCFBB5C56A802AE245CFFF155 /* FGFluidConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80769B4A3048DB80439D3074A58BC62A /* Pods-FGFluidConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B3C3FE6A6F2774A1DA9930DA430099 /* Build configuration list for PBXNativeTarget "Pods-FGFluidConstraints" */;
+			buildPhases = (
+				32B91264D6FAC458AEB3C3898DC31448 /* Sources */,
+				3707C5F24CDACFD6949B9AE571A13B51 /* Frameworks */,
+				B222D8ADC5ABEFCB02CD312E6C4AFF45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56A0A85ADE3EE7189DD528AF1C3CD17 /* PBXTargetDependency */,
+			);
+			name = "Pods-FGFluidConstraints";
+			productName = "Pods-FGFluidConstraints";
+			productReference = 1C1F1684BBFD8A0EB4969636B59C586F /* Pods_FGFluidConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1429F78237E83BC1A0DDE859FD9BAF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D7CD60B1C521CA0F10EDCD47466680 /* FGFluidConstraints */,
+				80769B4A3048DB80439D3074A58BC62A /* Pods-FGFluidConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B91264D6FAC458AEB3C3898DC31448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B240E0954B611CF44FD1A699FCD422 /* Pods-FGFluidConstraints-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3E64A474FB04CF30716B8F06E84337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9EDDD539C0E56F16607C617A63AD50 /* FGFluidConstraints-dummy.m in Sources */,
+				216FC96418318A65FAE5E1FE7656BF84 /* NSLayoutConstraint+FGFluidConstraints.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56A0A85ADE3EE7189DD528AF1C3CD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FGFluidConstraints;
+			target = 17D7CD60B1C521CA0F10EDCD47466680 /* FGFluidConstraints */;
+			targetProxy = 7A7D7DD283DE4A5F27E9FBF4E60B453C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0067945211E396D5ADA3112B70EB25AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D46B4E17829B4DAAD0A4EB5DEE4864F /* FGFluidConstraints.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FGFluidConstraints/FGFluidConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGFluidConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FGFluidConstraints/FGFluidConstraints.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FGFluidConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A45B9FC615B03B4B69978284E419022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D46B4E17829B4DAAD0A4EB5DEE4864F /* FGFluidConstraints.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FGFluidConstraints/FGFluidConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGFluidConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FGFluidConstraints/FGFluidConstraints.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FGFluidConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3BF490A5EE8A48460EA43F64B2E943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C057C934995029346D16D3736E2665FB /* Pods-FGFluidConstraints.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FGFluidConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGFluidConstraints/Pods-FGFluidConstraints.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FGFluidConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9555C8F3472FDA39DFF5A66D342A079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A43B287395E66734822D6AFC94ADBB /* Pods-FGFluidConstraints.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FGFluidConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGFluidConstraints/Pods-FGFluidConstraints.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FGFluidConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B3C3FE6A6F2774A1DA9930DA430099 /* Build configuration list for PBXNativeTarget "Pods-FGFluidConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9555C8F3472FDA39DFF5A66D342A079 /* Debug */,
+				C3BF490A5EE8A48460EA43F64B2E943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F46327485BA9088BFDD8F9E9ABC496B /* Build configuration list for PBXNativeTarget "FGFluidConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0067945211E396D5ADA3112B70EB25AB /* Debug */,
+				1A45B9FC615B03B4B69978284E419022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
