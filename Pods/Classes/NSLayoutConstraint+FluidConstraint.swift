@@ -12,8 +12,8 @@ extension NSLayoutConstraint {
     
     static func fluidConstraints(arrViews: [UIView], alignAxis: String, vMargin: CGFloat, hMargin: CGFloat, iMargin: CGFloat) -> [NSLayoutConstraint] {
         
-        let arrConstraints: NSMutableArray = NSMutableArray(capacity: arrViews.count)
-        let dictViews: NSMutableDictionary = NSMutableDictionary()
+        var arrConstraints: [NSLayoutConstraint] = [NSLayoutConstraint](repeating: NSLayoutConstraint(), count: arrViews.count)
+        var dictViews: Dictionary<String, UIView> = Dictionary<String, UIView>()
         let isVertical = alignAxis.isEqual("V")
         
         let stringGlobalFormat: NSMutableString = NSMutableString(format: alignAxis + ":|-" + String(describing: isVertical ? vMargin : hMargin) + "-" as NSString)
@@ -22,7 +22,7 @@ extension NSLayoutConstraint {
             let stringKeyBefore: String = "view" + String(index-1)
             let stringKey: String = "view" + String(index)
             
-            dictViews.setValue(view, forKey: stringKey)
+            dictViews[stringKey] = view
             
             if index==0 {
                 stringGlobalFormat.append("[" + stringKey + "]-" + String(describing: iMargin) + "-")
@@ -34,7 +34,7 @@ extension NSLayoutConstraint {
             
             let stringLocalFormat = String(isVertical ? "H" : "V") + ":|-" + String(describing: isVertical ? hMargin : vMargin) + "-[" + stringKey + "]-" + String(describing: isVertical ? hMargin : vMargin) + "-|"
             
-            arrConstraints.addObjects(from: NSLayoutConstraint.constraints(withVisualFormat: stringLocalFormat, options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: dictViews as! [String : Any]))
+            arrConstraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: stringLocalFormat, options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: dictViews as [String : Any]))
         }
         
         var stringAppended: String = ""
@@ -47,9 +47,9 @@ extension NSLayoutConstraint {
         
         stringGlobalFormat.append(stringAppended)
         
-        arrConstraints.addObjects(from: NSLayoutConstraint.constraints(withVisualFormat: stringGlobalFormat as String, options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: dictViews as! [String : Any]))
+        arrConstraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: stringGlobalFormat as String, options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: dictViews as [String : Any]))
         
-        return arrConstraints as! [NSLayoutConstraint]
+        return arrConstraints
         
     }
     
